@@ -47,4 +47,5 @@ module FinalProject
       ActionDispatch::Static,
       Rails.root.join("docs").to_s,
       index: config.public_file_server.index_name, headers: config.public_file_server.headers || {})
+  end
 end
